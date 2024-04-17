@@ -30,8 +30,8 @@
     <div class="row">
       <div class="col-12">
         <chart-card
-          title="Users behavior"
-          sub-title="24 Hours performance"
+          title="Colleagues Added"
+          sub-title="Mothly"
           :chart-data="usersChart.data"
           :chart-options="usersChart.options"
         >
@@ -39,44 +39,44 @@
             <i class="ti-reload"></i> Updated 3 minutes ago
           </span>
           <div slot="legend">
-            <i class="fa fa-circle text-info"></i> Open
-            <i class="fa fa-circle text-danger"></i> Click
-            <i class="fa fa-circle text-warning"></i> Click Second Time
+            <i class="fa fa-circle text-info"></i> North America
+            <i class="fa fa-circle text-danger"></i> Europe
+            <i class="fa fa-circle text-warning"></i> Asia
           </div>
         </chart-card>
       </div>
 
       <div class="col-md-6 col-12">
         <chart-card
-          title="Email Statistics"
-          sub-title="Last campaign performance"
+          title="Colleague Status"
+          sub-title=""
           :chart-data="preferencesChart.data"
           chart-type="Pie"
         >
           <span slot="footer">
-            <i class="ti-timer"></i> Campaign set 2 days ago</span
+            <i class=""></i> </span
           >
           <div slot="legend">
-            <i class="fa fa-circle text-info"></i> Open
-            <i class="fa fa-circle text-danger"></i> Bounce
-            <i class="fa fa-circle text-warning"></i> Unsubscribe
+            <i class="fa fa-circle text-info"></i> Full Time
+            <i class="fa fa-circle text-danger"></i> On leave
+            <i class="fa fa-circle text-warning"></i> Contractor 
           </div>
         </chart-card>
       </div>
 
       <div class="col-md-6 col-12">
         <chart-card
-          title="2015 Sales"
-          sub-title="All products including Taxes"
+          title="Colleague Growth"
+          sub-title=""
           :chart-data="activityChart.data"
           :chart-options="activityChart.options"
         >
           <span slot="footer">
-            <i class="ti-check"></i> Data information certified
+            <i class=""></i> 
           </span>
           <div slot="legend">
-            <i class="fa fa-circle text-info"></i> Tesla Model S
-            <i class="fa fa-circle text-warning"></i> BMW 5 Series
+            <i class="fa fa-circle text-info"></i> Full Time
+            <i class="fa fa-circle text-warning"></i> Contractor
           </div>
         </chart-card>
       </div>
@@ -98,34 +98,34 @@ export default {
     return {
       statsCards: [
         {
-          type: "warning",
-          icon: "ti-server",
-          title: "Capacity",
-          value: "105GB",
+          type: "Colleagues in Region",
+          
+          title: "Colleagues in Region",
+          value: "20",
           footerText: "Updated now",
           footerIcon: "ti-reload",
         },
         {
           type: "success",
-          icon: "ti-wallet",
-          title: "Revenue",
-          value: "$1,345",
+         
+          title: "Recently Added Colleagues",
+          value: "7",
           footerText: "Last day",
           footerIcon: "ti-calendar",
         },
         {
           type: "danger",
-          icon: "ti-pulse",
-          title: "Errors",
+          
+          title: "Notifications",
           value: "23",
           footerText: "In the last hour",
           footerIcon: "ti-timer",
         },
         {
           type: "info",
-          icon: "ti-twitter-alt",
-          title: "Followers",
-          value: "+45",
+          
+          title: "Colleagues On Leave",
+          value: "2",
           footerText: "Updated now",
           footerIcon: "ti-reload",
         },
@@ -133,14 +133,14 @@ export default {
       usersChart: {
         data: {
           labels: [
-            "9:00AM",
-            "12:00AM",
-            "3:00PM",
-            "6:00PM",
-            "9:00PM",
-            "12:00PM",
-            "3:00AM",
-            "6:00AM",
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
           ],
           series: [
             [287, 385, 490, 562, 594, 626, 698, 895, 952],

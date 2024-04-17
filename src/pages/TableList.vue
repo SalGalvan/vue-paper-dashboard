@@ -27,42 +27,42 @@
 </template>
 <script>
 import { PaperTable } from "@/components";
-const tableColumns = ["Id", "Name", "Salary", "Country", "City"];
+const tableColumns = ["Id", "Name", "Status", "Region", "Title"];
 const tableData = [
   {
     id: 1,
-    name: "Dakota Rice",
-    salary: "$36.738",
-    country: "Niger",
-    city: "Oud-Turnhout",
+    name: "Sal Galvan",
+    status: "Full Time",
+    region: "North America",
+    title: "Technical Analyst",
   },
   {
     id: 2,
-    name: "Minerva Hooper",
-    salary: "$23,789",
-    country: "Curaçao",
-    city: "Sinaai-Waas",
+    name: "Britney Davis",
+    status: "Full Time",
+    region: "North America",
+    title: "Project Manager",
   },
   {
     id: 3,
-    name: "Sage Rodriguez",
-    salary: "$56,142",
-    country: "Netherlands",
-    city: "Baileux",
+    name: "Tim Robinson",
+    status: "Full Time",
+    region: "North America",
+    title: "Quality Analyst",
   },
   {
     id: 4,
-    name: "Philip Chaney",
-    salary: "$38,735",
-    country: "Korea, South",
-    city: "Overland Park",
+    name: "Rim Jimenez",
+    status: "Contractor",
+    region: "North America",
+    title: "Business Analyst",
   },
   {
     id: 5,
-    name: "Doris Greene",
-    salary: "$63,542",
-    country: "Malawi",
-    city: "Feldkirchen in Kärnten",
+    name: "Jose Chacon",
+    status: "Full Time",
+    region: "North America",
+    title: "Technical Analyst",
   },
 ];
 
@@ -73,16 +73,13 @@ export default {
   data() {
     return {
       table1: {
-        title: "Stripped Table",
-        subTitle: "Here is a subtitle for this table",
+        title: "Colleagues in Region",
+        
         columns: [...tableColumns],
         data: [...tableData],
       },
       table2: {
-        title: "Table on Plain Background",
-        subTitle: "Here is a subtitle for this table",
-        columns: [...tableColumns],
-        data: [...tableData],
+       
       },
     };
   },

@@ -1,28 +1,26 @@
 <template>
   <card class="card-user">
     <div slot="image">
-      <img src="@/assets/img/background.jpg" alt="..." />
+      
     </div>
     <div>
       <div class="author">
-        <img
-          class="avatar border-white"
-          src="@/assets/img/faces/face-2.jpg"
-          alt="..."
-        />
+       
+         
+     
         <h4 class="title">
-          Chet Faker
+          Sal Galvan
           <br />
           <a href="#">
-            <small>@chetfaker</small>
+            <small>On Leave</small>
           </a>
         </h4>
       </div>
       <p class="description text-center">
-        "I like the way you work it
+        
         <br />
-        No diggity <br />
-        I wanna bag it up"
+        <br />
+        
       </p>
     </div>
     <hr />
@@ -49,16 +47,16 @@ export default {
     return {
       details: [
         {
-          title: "12",
-          subTitle: "Files",
+          title: "",
+          subTitle: "",
         },
         {
-          title: "2GB",
-          subTitle: "Used",
+          title: "",
+          subTitle: "",
         },
         {
-          title: "24,6$",
-          subTitle: "Spent",
+          title: "",
+          subTitle: "",
         },
       ],
     };

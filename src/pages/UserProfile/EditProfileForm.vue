@@ -99,14 +99,8 @@
         <div class="row">
           <div class="col-md-12">
             <div class="form-group">
-              <label>About Me</label>
-              <textarea
-                rows="5"
-                class="form-control border-input"
-                placeholder="Here can be your description"
-                v-model="user.aboutMe"
-              >
-              </textarea>
+             
+            
             </div>
           </div>
         </div>
@@ -125,15 +119,15 @@ export default {
   data() {
     return {
       user: {
-        company: "Paper Dashboard",
-        username: "michael23",
+        company: "Pfizer",
+        username: "Username",
         email: "",
-        firstName: "Chet",
-        lastName: "Faker",
-        address: "Melbourne, Australia",
-        city: "Melbourne",
+        firstName: "First Name",
+        lastName: "Last Name",
+        address: "Adress",
+        city: "City",
         postalCode: "",
-        aboutMe: `We must accept finite disappointment, but hold on to infinite hope.`,
+       
       },
     };
   },

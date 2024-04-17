@@ -8,14 +8,14 @@
           </li>
         </ul>
       </nav>
-      <div class="copyright d-flex flex-wrap">
-        &copy; Coded with
-        <i class="fa fa-heart heart"></i> by
+      <div class="">
+        &copy; 
+        <i class=""></i>
         <a href="https://github.com/cristijora" target="_blank">
-          &nbsp; Cristi Jora.</a
-        >&nbsp; Designed by
+          &nbsp; </a
+        >&nbsp; 
         <a href="https://www.creative-tim.com/?ref=pdf-vuejs" target="_blank"
-          >&nbsp; Creative Tim.</a
+          >&nbsp;</a
         >
       </div>
     </div>

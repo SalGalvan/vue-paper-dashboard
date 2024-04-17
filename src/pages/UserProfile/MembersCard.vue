@@ -36,22 +36,22 @@
 export default {
   data() {
     return {
-      title: "Team members",
+      title: "Recently Viewd Colleagues",
       members: [
         {
           image: require("@/assets/img/faces/face-0.jpg"),
-          name: "Dj Khaled",
-          status: "Offline",
+          name: "Ric Jimenez",
+          status: "On Leave",
         },
         {
           image: require("@/assets/img/faces/face-1.jpg"),
-          name: "Creative Tim",
+          name: "Tim Robinson",
           status: "Available",
         },
         {
           image: require("@/assets/img/faces/face-1.jpg"),
-          name: "Flume",
-          status: "Busy",
+          name: "Jose Chacon",
+          status: "Available",
         },
       ],
     };

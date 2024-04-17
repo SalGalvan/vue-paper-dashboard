@@ -5,7 +5,7 @@
         <template slot="header">
           <h4 class="card-title">320+ Themify Icons</h4>
           <p class="card-category">
-            Handcrafted by our friends from
+           
             <a target="_blank" href="https://themify.me/">Themify</a>.
           </p>
         </template>
